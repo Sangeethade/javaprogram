@@ -1,0 +1,21 @@
+public class StringExample {
+
+	public static void show()
+	 {
+		String s = "Welcome to java world";
+		String s1 = "welcome";
+		
+		System.out.println("character at 5th position:"+s.charAt(5));
+		System.out.println(s.compareToIgnoreCase(s1));
+		System.out.println(s1+"let us learn");
+		System.out.println(s.indent('a'));
+		System.out.println("replace string:"+s.replaceAll("a","e"));
+		System.out.println(s.substring(4,10));
+		System.out.println(s1.toLowerCase());
+		
+
+	}
+	public static void main(String[] args) {
+		show();
+	}
+}
