@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/data/jpa
+ https://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
+ 
+ <bean id="sac" class="com.Entity.Question">
+ <constructor-arg name="qid" value="1"/>
+ <constructor-arg name="qname" value="What is java"/>
+ <constructor-arg>
+ <list>
+ <value>java is a programming language</value>
+ <value>java is a platform.it is OOPS language</value>
+ </list>
+ </constructor-arg>
+ </bean>
+ 
+ </beans>
